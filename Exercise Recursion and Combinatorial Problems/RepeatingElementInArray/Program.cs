@@ -19,7 +19,7 @@ internal class Program
 
         for (int i = 0; i < n; i++)
         {
-            int index = Math.Abs(arr[i]) - 1;
+            int index = arr[i] - 1;
 
             if (arr[index] < 0)
             {
