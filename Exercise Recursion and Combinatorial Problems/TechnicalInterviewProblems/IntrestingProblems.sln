@@ -13,19 +13,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripletsWithSumZero", "..\T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeatingElementInArray", "..\RepeatingElementInArray\RepeatingElementInArray.csproj", "{BC865FFE-6CB5-4605-A18B-335B9912E728}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonrepeatingElementInArray", "..\NonrepeatingElementInArray\NonrepeatingElementInArray.csproj", "{726EB71F-93FC-4972-AA6A-CA564B754DA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonrepeatingElementInArray", "..\NonrepeatingElementInArray\NonrepeatingElementInArray.csproj", "{726EB71F-93FC-4972-AA6A-CA564B754DA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonrepeatingElementInArrayV2", "..\NonrepeatingElementInArrayV2\NonrepeatingElementInArrayV2.csproj", "{4947FA1D-FA00-441F-98AB-F60AEB3EE183}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonrepeatingElementInArrayV2", "..\NonrepeatingElementInArrayV2\NonrepeatingElementInArrayV2.csproj", "{4947FA1D-FA00-441F-98AB-F60AEB3EE183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlyOneNumRepeats", "..\OnlyOneNumRepeats\OnlyOneNumRepeats.csproj", "{73BACE61-3D7A-4221-A6D8-EF7F1D830ECC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlyOneNumRepeats", "..\OnlyOneNumRepeats\OnlyOneNumRepeats.csproj", "{73BACE61-3D7A-4221-A6D8-EF7F1D830ECC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumber", "..\MissingNumber\MissingNumber.csproj", "{03D492A3-BF90-4B40-8348-E638BADD92BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MissingNumber", "..\MissingNumber\MissingNumber.csproj", "{03D492A3-BF90-4B40-8348-E638BADD92BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShufflingNumbers", "..\ShufflingNumbers\ShufflingNumbers.csproj", "{D958D9ED-9E51-4FEE-A38D-E11FAFD63FAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShufflingNumbers", "..\ShufflingNumbers\ShufflingNumbers.csproj", "{D958D9ED-9E51-4FEE-A38D-E11FAFD63FAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwentyOne", "..\TwentyOne\TwentyOne.csproj", "{C21E37DF-667F-4C2F-A032-9AB9E9862BAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwentyOne", "..\TwentyOne\TwentyOne.csproj", "{C21E37DF-667F-4C2F-A032-9AB9E9862BAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNaturalNumber", "..\MissingNaturalNumber\MissingNaturalNumber.csproj", "{F04222F9-55FC-42B7-A25E-27DD197DB21C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MissingNaturalNumber", "..\MissingNaturalNumber\MissingNaturalNumber.csproj", "{F04222F9-55FC-42B7-A25E-27DD197DB21C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumInSortedArray", "..\MissingNumInSortedArray\MissingNumInSortedArray.csproj", "{C6320C4F-64F4-47D0-9D78-EA487D42D5D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemovingDublicates", "..\RemovingDublicates\RemovingDublicates.csproj", "{9AB73AE6-A54F-4A72-A8CE-8BD9FD94564F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindBiggestNumsThatArePresentAtLeastTwice", "..\FindBiggestNumsThatArePresentAtLeastTwice\FindBiggestNumsThatArePresentAtLeastTwice.csproj", "{EC86D596-B2C1-49F5-8CD3-BC604D8C6ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationArrayNums", "..\MultiplicationArrayNums\MultiplicationArrayNums.csproj", "{BBD018FF-C7A4-4A22-A0BD-732C8A82E1AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +89,22 @@ Global
 		{F04222F9-55FC-42B7-A25E-27DD197DB21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F04222F9-55FC-42B7-A25E-27DD197DB21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F04222F9-55FC-42B7-A25E-27DD197DB21C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6320C4F-64F4-47D0-9D78-EA487D42D5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6320C4F-64F4-47D0-9D78-EA487D42D5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6320C4F-64F4-47D0-9D78-EA487D42D5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6320C4F-64F4-47D0-9D78-EA487D42D5D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB73AE6-A54F-4A72-A8CE-8BD9FD94564F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB73AE6-A54F-4A72-A8CE-8BD9FD94564F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB73AE6-A54F-4A72-A8CE-8BD9FD94564F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB73AE6-A54F-4A72-A8CE-8BD9FD94564F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC86D596-B2C1-49F5-8CD3-BC604D8C6ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC86D596-B2C1-49F5-8CD3-BC604D8C6ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC86D596-B2C1-49F5-8CD3-BC604D8C6ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC86D596-B2C1-49F5-8CD3-BC604D8C6ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD018FF-C7A4-4A22-A0BD-732C8A82E1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD018FF-C7A4-4A22-A0BD-732C8A82E1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD018FF-C7A4-4A22-A0BD-732C8A82E1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD018FF-C7A4-4A22-A0BD-732C8A82E1AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
