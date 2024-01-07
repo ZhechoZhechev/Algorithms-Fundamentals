@@ -6,8 +6,28 @@ class Program
     {
         int[] inputArray = { 1, 2, 3, 4 };
         int[] resultArray = ProductExceptSelf(inputArray);
+        int[] result = ProductExceptSelfV2(inputArray);
 
         Console.WriteLine("Result Array: " + string.Join(", ", resultArray));
+        Console.WriteLine("Result Array: " + string.Join(", ", result));
+    }
+
+    private static int[] ProductExceptSelfV2(int[] inputArray)
+    {
+        int[] result = new int[inputArray.Length];
+
+        int productAll = 1;
+
+        for (int i = 0; i < inputArray.Length; i++)
+        {
+            productAll *= inputArray[i];
+        }
+
+        for (int i = 0; i < inputArray.Length; i++)
+        {
+            result[i] = productAll / inputArray[i];
+        }
+        return result;
     }
 
     private static int[] ProductExceptSelf(int[] nums)
