@@ -34,6 +34,13 @@ internal class Program
 
     private static HashSet<int> RemoveWhenUnsortedMultiset(int[] multiset)
     {
-        return new HashSet<int>(multiset);
+        HashSet<int> result = new HashSet<int>();
+
+        for (int i = 0; i < multiset.Length; i++)
+        {
+            result.Add(multiset[i]);
+        }
+
+        return result;
     }
 }
