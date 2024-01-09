@@ -4,6 +4,17 @@
 
     internal class Program
     {
+        static void Main()
+        {
+            string text = "This is a sample text containing S1, S2, and, obiously... S3 in any order.";
+            string s1 = "S2";
+            string s2 = "S1";
+            string s3 = "S3";
+
+            string result = FindShortestSubstring(text, s1, s2, s3);
+
+            Console.WriteLine($"Shortest substring containing {s1}, {s2}, and {s3}: {result}");
+        }
         static string FindShortestSubstring(string text, string s1, string s2, string s3)
         {
             int start = 0;
@@ -28,17 +39,6 @@
             return text.Contains(s1) && text.Contains(s2) && text.Contains(s3);
         }
 
-        static void Main()
-        {
-            string text = "This is a sample text containing S1, S2, and, obiously... S3 in any order.";
-            string s1 = "S2";
-            string s2 = "S1";
-            string s3 = "S3";
-
-            string result = FindShortestSubstring(text, s1, s2, s3);
-
-            Console.WriteLine($"Shortest substring containing {s1}, {s2}, and {s3}: {result}");
-        }
     }
 
 }

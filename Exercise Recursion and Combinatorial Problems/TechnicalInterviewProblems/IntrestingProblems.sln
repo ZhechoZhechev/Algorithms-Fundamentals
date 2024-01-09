@@ -37,13 +37,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicationArrayNums", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatchPointersAngle", "..\WatchPointersAngle\WatchPointersAngle.csproj", "{EAEE9B49-82BC-458F-9455-8CC00D3A88FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicOptimization", "..\DynamicOptimization\DynamicOptimization.csproj", "{440E9C09-E512-4F2D-ACBA-FA12E0F1954F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicOptimization", "..\DynamicOptimization\DynamicOptimization.csproj", "{440E9C09-E512-4F2D-ACBA-FA12E0F1954F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterceptingEvents", "..\InterceptingEvents\InterceptingEvents.csproj", "{FAE06C80-4BA0-4D29-B26E-85B6D09A7E4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterceptingEvents", "..\InterceptingEvents\InterceptingEvents.csproj", "{FAE06C80-4BA0-4D29-B26E-85B6D09A7E4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepsVariations", "..\StepsVariations\StepsVariations.csproj", "{178C15E4-953B-4A71-9E59-E76B5780D915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StepsVariations", "..\StepsVariations\StepsVariations.csproj", "{178C15E4-953B-4A71-9E59-E76B5780D915}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAndThreeStrings", "..\TextAndThreeStrings\TextAndThreeStrings.csproj", "{80D0FE9C-0204-4B6F-88A2-5BBE8E6F0DB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextAndThreeStrings", "..\TextAndThreeStrings\TextAndThreeStrings.csproj", "{80D0FE9C-0204-4B6F-88A2-5BBE8E6F0DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoNumbersInArray", "..\TwoNumbersInArray\TwoNumbersInArray.csproj", "{A7600EBD-64AF-462E-8BC8-A4FA91074833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Majorant", "..\Majorant\Majorant.csproj", "{7FD3002C-AD61-45AE-8414-7B336618E820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhenLightBulbsBreak", "..\WhenLightBulbsBreak\WhenLightBulbsBreak.csproj", "{A16D08B6-2A7C-41BD-8E76-F1E0240F866B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +141,18 @@ Global
 		{80D0FE9C-0204-4B6F-88A2-5BBE8E6F0DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80D0FE9C-0204-4B6F-88A2-5BBE8E6F0DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80D0FE9C-0204-4B6F-88A2-5BBE8E6F0DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7600EBD-64AF-462E-8BC8-A4FA91074833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7600EBD-64AF-462E-8BC8-A4FA91074833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7600EBD-64AF-462E-8BC8-A4FA91074833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7600EBD-64AF-462E-8BC8-A4FA91074833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD3002C-AD61-45AE-8414-7B336618E820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD3002C-AD61-45AE-8414-7B336618E820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD3002C-AD61-45AE-8414-7B336618E820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD3002C-AD61-45AE-8414-7B336618E820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16D08B6-2A7C-41BD-8E76-F1E0240F866B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16D08B6-2A7C-41BD-8E76-F1E0240F866B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16D08B6-2A7C-41BD-8E76-F1E0240F866B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16D08B6-2A7C-41BD-8E76-F1E0240F866B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
